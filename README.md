@@ -12,6 +12,12 @@ cd mini-crm-laravel-vue
 
 composer install
 
+npm install
+
+php artisan key:generate
+
 php artisan migrate --seed
 
 php artisan serve
+
+npm run watch
