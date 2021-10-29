@@ -14,6 +14,9 @@
         <div id="app">
             <router-view></router-view>
         </div>
+        <script>
+            window.baseUrl = @json(url('/').'/api');
+        </script>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
