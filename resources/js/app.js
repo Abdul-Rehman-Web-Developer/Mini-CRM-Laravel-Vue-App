@@ -1,5 +1,4 @@
 require('./bootstrap');
-window.baseUrl = "http://localhost/mini-crm-laravel-vue/public/api"
 
 import Vue from 'vue'
 import routes from './routes'
